@@ -1,0 +1,39 @@
+.Vans-root{
+    background-color: #FFF7ED;
+    color: #161616;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Vans-root h2{
+    margin: 0;
+}
+
+.vans-filter{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.vans-filter-item{
+    background-color: #FFEAD0 ;
+    font-size: 0.7rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 2px;
+}
+
+.vans-filter p{
+    font-size: 0.7rem;
+    color: #4D4D4D;
+    text-decoration: underline;
+}
+
+.vans-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}

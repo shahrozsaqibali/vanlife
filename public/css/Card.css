@@ -1,0 +1,52 @@
+.card-root{
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+    max-height: 313px;
+    min-width: 180px;
+    min-height: 313px;
+}
+
+.card-root img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.cost{
+    position: relative;
+}
+
+.cost::after{
+    content: "/day";
+    font-size: 0.6rem;
+    font-weight: lighter;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+
+.per{
+   font-weight: lighter;
+   font-size: 0.8rem;
+}
+
+.card-fitler-flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    background-color: #115E59;
+    color: #FFEAD0 ;
+    font-size: 0.9rem;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+}
+
