@@ -7,7 +7,7 @@ export default function Header(){
             
             <div>
                 <Link className="header-root-title"  to="/">
-                    <h2 >#VANLIFE</h2>
+                    <h2 >#VANLIFE-Yaa</h2>
                 </Link>
             </div>
             
