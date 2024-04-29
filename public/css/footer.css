@@ -1,0 +1,11 @@
+.footer-root{
+    background-color: #252525;
+    color: #AAAAAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+}

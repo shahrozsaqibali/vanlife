@@ -1,0 +1,28 @@
+.header-root{
+    background-color: #FFF7ED;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.header-root-title{
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-root-link{
+    text-decoration: none;
+    color: #4D4D4D;
+    transition: color 0.3s;
+}
+
+.header-root-link:hover{ 
+    color: #161616;
+}
+
+.header-root-nav{
+    display: flex;
+    gap: 20px;
+}
