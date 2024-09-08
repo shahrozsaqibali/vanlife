@@ -1,15 +1,15 @@
 import React from 'react'
 
-function Card() {
+function Card(props) {
   return (
-    <div className='card-root'>
-        <img src="https://assets.scrimba.com/advanced-react/react-router/beach-bum.png" alt="" />
+    <div className='card-root' key={props.id}>
+        <img src={props.imageUrl} alt="" />
         <div className='card-details'>
-            <p>Beach Bum</p>
-            <p className='cost'> $80 </p>
+            <p>{props.name}</p>
+            <p className='cost'> ${props.price} </p>
         </div>
-        <div className='card-fitler-flag'>
-            Rugged
+        <div className={`card-${props.type}`}>
+            {props.type }
         </div>  
     </div>
   )

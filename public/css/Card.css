@@ -1,3 +1,8 @@
+a:link { 
+    text-decoration: none; 
+  }
+
+  
 .card-root{
     display: flex;
     flex-direction: column;
@@ -5,6 +10,8 @@
     max-height: 313px;
     min-width: 180px;
     min-height: 313px;
+  
+
 }
 
 .card-root img{
@@ -17,6 +24,8 @@
     flex-direction: row;
     justify-content: space-between;
     font-weight: bold;
+    text-decoration: none;
+
 }
 
 .cost{
@@ -38,12 +47,37 @@
    font-size: 0.8rem;
 }
 
-.card-fitler-flag{
+.card-rugged{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60px;
     background-color: #115E59;
+    color: #FFEAD0 ;
+    font-size: 0.9rem;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+}
+
+.card-simple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    background-color: #E17654;
+    color: #FFEAD0 ;
+    font-size: 0.9rem;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+}
+
+
+.card-luxury{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    background-color: #161616;
     color: #FFEAD0 ;
     font-size: 0.9rem;
     padding: 6px 10px 6px 10px;
